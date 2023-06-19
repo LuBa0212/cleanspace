@@ -3,20 +3,20 @@
   <nav class="navbar">
     <div class="navbar-bg"></div>
     <div class="navbar-inner">
-      <article>
-        <a href="/home/">
-          <img
-            src="./img/Clean Space logo .png"
-            alt="logo"
-            class="img-fluid right"
-          />
-        </a>
-      </article>
       <div class="left">
         <a href="#" class="link panel-open" data-panel="left">
           <span class="material-icons">menu</span>
         </a>
       </div>
+      <article class="logo-container">
+        <a href="/home/" class="logo-link">
+          <img
+            src="./img/Clean Space logo .png"
+            alt="logo"
+            class="logo-image"
+          />
+        </a>
+      </article>
     </div>
   </nav>
 
@@ -24,10 +24,23 @@
     <div class="card card-expandable">
       <div class="card-content">
         <div class="card">
-          <div class="card-header">Paquete Básico - L.450</div>
-          <a class="link card-close card-opened-fade-in color-black">
-            <i class="icon f7-icons">X</i>
-          </a>
+          <div
+            class="card-header"
+            style="position: relative; padding-right: 32px"
+          >
+            Paquete Básico - L.450
+            <a
+              class="link card-close card-opened-fade-in color-black"
+              style="
+                position: absolute;
+                top: 50%;
+                right: 10px;
+                transform: translateY(-50%);
+              "
+            >
+              <i class="icon f7-icons">X</i>
+            </a>
+          </div>
           <div class="card-content-padding">
             <br /><br />
             <img class="card-image" src="./img/Premium.jpeg" alt="" />
@@ -49,15 +62,28 @@
     <div class="card card-expandable">
       <div class="card-content">
         <div class="card">
-          <div class="card-header">Paquete Premium - L.1,500</div>
-          <a class="link card-close card-opened-fade-in color-black">
-            <i class="icon f7-icons">X</i>
-          </a>
-          <div class="card-content">
+          <div
+            class="card-header"
+            style="position: relative; padding-right: 32px"
+          >
+            Paquete Premium - L.1,500
+            <a
+              class="link card-close card-opened-fade-in color-black"
+              style="
+                position: absolute;
+                top: 50%;
+                right: 10px;
+                transform: translateY(-20%);
+              "
+            >
+              <i class="icon f7-icons">X</i>
+            </a>
+          </div>
+          <div class="card-content-padding">
             <br /><br />
             <img
               class="card-image"
-              src="img/nina-sostiene-productos-limpieza-guantes-trapos-cuenca-pared-blanca.jpg"
+              src="./img/nina-sostiene-productos-limpieza-guantes-trapos-cuenca-pared-blanca.jpg"
               alt=""
             />
             <ul>
@@ -73,6 +99,54 @@
           <div class="card-footer"></div>
         </div>
       </div>
+    </div>
+
+    <!-- Opposite Side -->
+    <div class="block-title">Agregar más servicios</div>
+    <div class="list accordion-list accordion-opposite">
+      <ul>
+        <li class="accordion-item">
+          <a class="item-content item-link" href="#">
+            <div class="item-inner">
+              <div class="item-title">Limpieza de vivienda</div>
+            </div>
+          </a>
+          <div class="accordion-item-content">
+            <div class="block">
+              <p>Limpieza de jardín</p>
+            </div>
+            <div class="block">
+              <p>Limpieza área de lavandería</p>
+            </div>
+            <div class="block">
+              <p>Limpieza de bodega</p>
+            </div>
+            <div class="block">
+              <p>Limpieza de ventanas</p>
+            </div>
+            <div class="block">
+              <p>Limpieza de paredes</p>
+            </div>
+            <div class="block">
+              <p>Limpieza de pisos</p>
+            </div>
+          </div>
+        </li>
+        <li class="accordion-item">
+          <a class="item-content item-link" href="#">
+            <div class="item-inner">
+              <div class="item-title">Lavandería y planchado de ropa</div>
+            </div>
+          </a>
+        </li>
+        <li class="accordion-item">
+          <a class="item-content item-link" href="#">
+            <div class="item-inner">
+              <div class="item-title">Servicio de cocina</div>
+            </div>
+          </a>
+        </li>
+      </ul>
     </div>
   </section>
 </section>

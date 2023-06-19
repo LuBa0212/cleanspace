@@ -13,6 +13,10 @@
   --color-gris: #f2eef2;
   --color-rojo-oscuro: #ba1924;
   --color-rojo-claro: #fcf0f4;
+  /*Estos son los colores*/
+  --color-azul: #4292bf;
+  --color-verde: #9bc35a;
+  --color-gris: #8d8c8f;
 }
 
 body {
@@ -41,6 +45,7 @@ p {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .page-content .menu-container {
   display: flex;
   align-items: center;
@@ -68,7 +73,7 @@ p {
 }
 
 .block-title {
-  color: var(--color-rojo-oscuro);
+  color: var(--color-verde);
   font-size: 16px;
   font-weight: 400;
 }
@@ -85,6 +90,25 @@ p {
   width: 100px;
   padding: 7px 10px;
   display: inline-block;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo-image {
+  max-height: 40px; /* Adjust the height as needed */
+  max-width: 100%;
+  height: auto;
+  width: auto;
 }
 
 .btn-categorie .nombre {
@@ -207,8 +231,12 @@ p {
 .card-content button {
   margin-top: 20px;
 }
+
 .card-image {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .menu-items {
