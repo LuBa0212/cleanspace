@@ -1,137 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-:root{
-	--f7-theme-color:#ba1924;
-	--f7-navbar-bg-color: #4292BF; /*navbar*/
-	--f7-navbar-link-color: #000; /*navbar link*/
-	--f7-navbar-text-color:#5079FE;
-	--f7-bars-bg-color:#fff;/*toolbar*/
-	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
-	--f7-block-margin-vertical:20px;
-	--f7-card-footer-border-color:transparent; 
-	--color-negro:#000;
-	--color-gris:#f2eef2;
-	--color-rojo-oscuro:#ba1924;
-	--color-rojo-claro:#fcf0f4;
+:root {
+  --f7-theme-color: #ba1924;
+  --f7-navbar-bg-color: #4292bf; /*navbar*/
+  --f7-navbar-link-color: #000; /*navbar link*/
+  --f7-navbar-text-color: #5079fe;
+  --f7-bars-bg-color: #fff; /*toolbar*/
+  --f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+  --f7-block-margin-vertical: 20px;
+  --f7-card-footer-border-color: transparent;
+  --color-negro: #000;
+  --color-gris: #f2eef2;
+  --color-rojo-oscuro: #ba1924;
+  --color-rojo-claro: #fcf0f4;
 }
 
-body{
-	font-family: 'Open Sans', sans-serif;
-	color: #201a1a;
-	font-weight: 300;
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #201a1a;
+  font-weight: 300;
 }
-h1,h2,h3,h4,h5,h6,p{
-	margin: 5px 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 5px 0;
 }
-.page .img-fluid{
-	
+.page .img-fluid {
 }
-#panel-menu .perfil{
-	margin-top: 0px;
-	background-color: #eee;
-	padding-top: 10px;
-	padding-bottom: 10px;
+#panel-menu .perfil {
+  margin-top: 0px;
+  background-color: #eee;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.perfil h6{
-	font-size: 16px;
-	font-weight: 500;
-}
-
-#menu-list.list{
-	font-size: 14px;
-}
-.item-inner{
-	color: #4292BF;
-	font-weight:600;
-}
-#menu-list span{
-	color: #F54748;
-	font-size: 20px;
+.perfil h6 {
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.block-title{
-	color: var(--color-rojo-oscuro);
-	font-size: 16px;
-	font-weight: 400;
+#menu-list.list {
+  font-size: 14px;
 }
-.block-title-large{
-	color: var(--color-negro);
-	font-size: 36px;
-	font-weight: 400;
+.item-inner {
+  color: #4292bf;
+  font-weight: 600;
 }
-
-.btn-categorie{
-	background-color: var(--color-gris);
-	border-radius: 60px;
-	width: 100px;
-	padding: 7px 10px;
-	display: inline-block;
-}
-.btn-categorie .nombre{
-	padding: 5px 0;
-	font-size: 15px;
+#menu-list span {
+  color: #f54748;
+  font-size: 20px;
 }
 
-
-.card-products .card{
-	background-color: var(--color-rojo-claro);
-	border: 1px solid #ddd;
-	box-shadow: none;
-	padding: 20px;
-	text-align: center;
-	min-height: 280px;
+.block-title {
+  color: var(--color-rojo-oscuro);
+  font-size: 16px;
+  font-weight: 400;
 }
-.card-products .card h4{
-	font-size: 20px;
+.block-title-large {
+  color: var(--color-negro);
+  font-size: 36px;
+  font-weight: 400;
 }
 
-
-#list-categorias .item-media img{
-	width: 100px;
+.btn-categorie {
+  background-color: var(--color-gris);
+  border-radius: 60px;
+  width: 100px;
+  padding: 7px 10px;
+  display: inline-block;
+}
+.btn-categorie .nombre {
+  padding: 5px 0;
+  font-size: 15px;
 }
 
-#list-categorias li{
-	box-shadow: 0px 0px 10px 5px #f2f2f2;
-	margin-bottom: 10px;
+.card-products .card {
+  background-color: var(--color-rojo-claro);
+  border: 1px solid #ddd;
+  box-shadow: none;
+  padding: 20px;
+  text-align: center;
+  min-height: 280px;
 }
-#list-categorias .item-title{
-	font-weight: 600;
-}
-#list-categorias .item-text{
-	font-weight: 400;
-	font-size: 13px;
-}
-#list-categorias .precio{
-	font-weight: 600;
-	font-size: 14px;
+.card-products .card h4 {
+  font-size: 20px;
 }
 
-.center{
-	text-align: center;
+#list-categorias .item-media img {
+  width: 100px;
 }
 
-.button{
-	text-transform: inherit;
+#list-categorias li {
+  box-shadow: 0px 0px 10px 5px #f2f2f2;
+  margin-bottom: 10px;
 }
-.button .icon{
-	vertical-align: middle;
-	display: inline-block;
-	font-size: 22px;
+#list-categorias .item-title {
+  font-weight: 600;
+}
+#list-categorias .item-text {
+  font-weight: 400;
+  font-size: 13px;
+}
+#list-categorias .precio {
+  font-weight: 600;
+  font-size: 14px;
 }
 
-#info-producto h4{
-	font-size: 20px;
+.center {
+  text-align: center;
 }
 
+.button {
+  text-transform: inherit;
+}
+.button .icon {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 22px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+#info-producto h4 {
+  font-size: 20px;
+}
