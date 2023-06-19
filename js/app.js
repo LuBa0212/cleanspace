@@ -29,9 +29,9 @@ var app = new Framework7({
       name: 'paquetes',
     },
     {
-      path: '/bigmac/',
-      url: 'bigmac.html',
-      name: 'bigmac',
+      path: '/sobre/',
+      url: 'sobre.html',
+      name: 'sobre',
     },
   ],
   dialog: {
